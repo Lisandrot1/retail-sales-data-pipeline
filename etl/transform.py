@@ -26,8 +26,10 @@ def transform():
 
 
 def Dim_Customer(df):
-    pass
-
+    dim_customer = df[['Customer_ID','Customer_Name','Segment']].drop_duplicates()
+    print(dim_customer)
+    
+    return dim_customer
 
 def Dim_Products(df):
     pass
@@ -41,8 +43,9 @@ def Dim_Geography (df):
 
 def main():
     try:
+        df= extract()
         transform()
-        Dim_Customer()
+        Dim_Customer(df)
         Dim_Products()
         Dim_Geography()
     except Exception as ex:
