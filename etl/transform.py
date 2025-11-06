@@ -1,53 +1,59 @@
 import pandas as pd
 from extract import extract
+import os
 
-def transform():
-    #traemos el dataframe de la extracion para la limpieza
-    df = extract()
-    # vamos a renombrar algunas columnas dentro del dataset
-    df.rename(columns={
-    'Row ID': 'Row_ID',
-    'Order ID': 'Order_ID',
-    'Order Date': 'Order_Date',
-    'Ship Date':'Ship_Date',
-    'Ship Mode':'Ship_Mode',
-    'Customer ID':'Customer_ID',
-    'Customer Name':'Customer_Name',
-    'Postal Code':'Postal_Code',
-    'Product ID':'Product_Code',
-    'Product Name':'Product_Name',
-    'Sub-Category':'Sub_Category'
-    }, inplace=True)
+df = extract()
+
+def base_dir(file_name):
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    data_path = os.path.join(base_dir, "..", "data", "tables", file_name)
     
-    #cambiamos los tipos de datos de fecha a datetime
-    df['Order_Date'] = pd.to_datetime(df['Order_Date'])
-    df['Ship_Date'] = pd.to_datetime(df['Ship_Date'])
-    return df
+    return data_path
+
+
+def save_data(df, output_file_name, index=False):
+    pathComplete = base_dir(output_file_name)
+    df.to_csv(pathComplete, index=index)
+    print("Archivo guardado")
+
 
 
 def Dim_Customer(df):
-    dim_customer = df[['Customer_ID','Customer_Name','Segment']].drop_duplicates()
-    print(dim_customer)
-    
-    return dim_customer
+        customers = df[['Customer_ID','Customer_Name','Segment']].drop_duplicates()
+        save_data(
+            df=customers,
+            output_file_name='Dim_Customer.csv'
+        )
+       
 
 def Dim_Products(df):
-    pass
+    products = df[['Product_Code','Product_Name','Category','Sub_Category']].drop_duplicates()
+    
+    save_data(
+        df=products,
+        output_file_name='Dim_Products.csv'
+    )
+    
 
 
 def Dim_Geography (df):
+    geography = df[['City','State','Country']]
+    save_data(
+        df=geography,
+        output_file_name='Dim_Geography.csv'
+    )
+
+
+def Fact_Sales():
     pass
-
-
 
 
 def main():
     try:
-        df= extract()
-        transform()
+        df = extract()
         Dim_Customer(df)
-        Dim_Products()
-        Dim_Geography()
+        Dim_Products(df)
+        Dim_Geography(df)
     except Exception as ex:
         print(f'Ocurrio un problema en {ex}')
         
