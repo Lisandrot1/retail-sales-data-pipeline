@@ -37,16 +37,15 @@ def Dim_Products(df):
 
 
 def Dim_Geography (df):
-    geography = df[['City','State','Country']]
+    geography = df[['City','State','Country','Region','Postal_Code']].drop_duplicates()
     save_data(
         df=geography,
         output_file_name='Dim_Geography.csv'
     )
 
 
-def Fact_Sales():
+def Fact_Sales(df):
     pass
-
 
 def main():
     try:
@@ -54,6 +53,7 @@ def main():
         Dim_Customer(df)
         Dim_Products(df)
         Dim_Geography(df)
+        Fact_Sales(df)
     except Exception as ex:
         print(f'Ocurrio un problema en {ex}')
         
