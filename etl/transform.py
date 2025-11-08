@@ -27,8 +27,7 @@ def Dim_Customer(df):
        
 
 def Dim_Products(df):
-    products = df[['Product_Code','Product_Name','Category','Sub_Category']].drop_duplicates()
-    
+    products = df[['Product_Code','Product_Name']].drop_duplicates(subset=['Product_Code'], keep='first')    
     save_data(
         df=products,
         output_file_name='Dim_Products.csv'
@@ -43,6 +42,19 @@ def Dim_Geography (df):
         output_file_name='Dim_Geography.csv'
     )
 
+def Dim_Category(df):
+    category= df[['Category']].drop_duplicates()
+    save_data(
+        df=category,
+        output_file_name='Dim_Category.csv'
+    )
+
+def Dim_SubCategory(df):
+    subcategory = df[['Sub_Category']].drop_duplicates()
+    save_data(
+        df=subcategory,
+        output_file_name='Dim_SubCategory.csv'
+    )
 
 def Fact_Sales(df):
     pass
@@ -53,6 +65,8 @@ def main():
         Dim_Customer(df)
         Dim_Products(df)
         Dim_Geography(df)
+        Dim_Category(df)
+        Dim_SubCategory(df)
         Fact_Sales(df)
     except Exception as ex:
         print(f'Ocurrio un problema en {ex}')
