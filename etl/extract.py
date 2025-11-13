@@ -16,7 +16,7 @@ def extract():
     'Order Date': 'Order_Date',
     'Ship Date':'Ship_Date',
     'Ship Mode':'Ship_Mode',
-    'Customer ID':'Customer_ID',
+    'Customer ID':'Customer_Code',
     'Customer Name':'Customer_Name',
     'Postal Code':'Postal_Code',
     'Product ID':'Product_Code',
@@ -27,6 +27,9 @@ def extract():
     #cambiamos los tipos de datos de fecha a datetime
     df['Order_Date'] = pd.to_datetime(df['Order_Date'])
     df['Ship_Date'] = pd.to_datetime(df['Ship_Date'])
+    #elimnar la colulmna Row_ID
+    df.drop(columns=['Row_ID'],inplace=True)
+    
     return df
 
 

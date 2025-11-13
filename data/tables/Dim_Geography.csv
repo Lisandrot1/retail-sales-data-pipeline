@@ -2,7 +2,6 @@ City,State,Country,Region,Postal_Code
 Henderson,Kentucky,United States,South,42420
 Los Angeles,California,United States,West,90036
 Fort Lauderdale,Florida,United States,South,33311
-Los Angeles,California,United States,West,90032
 Concord,North Carolina,United States,South,28027
 Seattle,Washington,United States,West,98103
 Fort Worth,Texas,United States,Central,76106
@@ -12,10 +11,8 @@ San Francisco,California,United States,West,94109
 Fremont,Nebraska,United States,Central,68025
 Philadelphia,Pennsylvania,United States,East,19140
 Orem,Utah,United States,West,84057
-Los Angeles,California,United States,West,90049
 Houston,Texas,United States,Central,77095
 Richardson,Texas,United States,Central,75080
-Houston,Texas,United States,Central,77041
 Naperville,Illinois,United States,Central,60540
 Melbourne,Florida,United States,South,32935
 Eagan,Minnesota,United States,Central,55122
@@ -24,18 +21,13 @@ Dover,Delaware,United States,East,19901
 New Albany,Indiana,United States,Central,47150
 New York City,New York,United States,East,10024
 Troy,New York,United States,East,12180
-Los Angeles,California,United States,West,90004
 Chicago,Illinois,United States,Central,60610
 Gilbert,Arizona,United States,West,85234
 Springfield,Virginia,United States,South,22153
-New York City,New York,United States,East,10009
 Jackson,Michigan,United States,Central,49201
 Memphis,Tennessee,United States,South,38109
-Houston,Texas,United States,Central,77070
 Decatur,Alabama,United States,South,35601
-San Francisco,California,United States,West,94122
 Durham,North Carolina,United States,South,27707
-Chicago,Illinois,United States,Central,60623
 Columbia,South Carolina,United States,South,29203
 Rochester,Minnesota,United States,Central,55901
 Minneapolis,Minnesota,United States,Central,55407
@@ -44,7 +36,6 @@ Saint Paul,Minnesota,United States,Central,55106
 Aurora,Colorado,United States,West,80013
 Charlotte,North Carolina,United States,South,28205
 Orland Park,Illinois,United States,Central,60462
-New York City,New York,United States,East,10035
 Urbandale,Iowa,United States,Central,50322
 Columbus,Ohio,United States,East,43229
 Bristol,Tennessee,United States,South,37620
@@ -58,42 +49,31 @@ Newark,Ohio,United States,East,43055
 Franklin,Wisconsin,United States,Central,53132
 Scottsdale,Arizona,United States,West,85254
 San Jose,California,United States,West,95123
-Seattle,Washington,United States,West,98105
-Seattle,Washington,United States,West,98115
 Edmond,Oklahoma,United States,Central,73034
-Los Angeles,California,United States,West,90045
-Philadelphia,Pennsylvania,United States,East,19134
 Carlsbad,New Mexico,United States,West,88220
 San Antonio,Texas,United States,Central,78207
-Houston,Texas,United States,Central,77036
-Decatur,Illinois,United States,Central,62521
 Monroe,Louisiana,United States,South,71203
 Fairfield,Connecticut,United States,East,6824
 Grand Prairie,Texas,United States,Central,75051
 Redlands,California,United States,West,92374
 Hamilton,Ohio,United States,East,45011
 Westfield,New Jersey,United States,East,7090
-Philadelphia,Pennsylvania,United States,East,19120
 Akron,Ohio,United States,East,44312
 Denver,Colorado,United States,West,80219
 Dallas,Texas,United States,Central,75220
-Franklin,Tennessee,United States,South,37064
 Whittier,California,United States,West,90604
 Saginaw,Michigan,United States,Central,48601
 Medina,Ohio,United States,East,44256
 Dublin,Ohio,United States,East,43017
 Detroit,Michigan,United States,Central,48227
-Columbia,Tennessee,United States,South,38401
 Tampa,Florida,United States,South,33614
 Santa Clara,California,United States,West,95051
 Lakeville,Minnesota,United States,Central,55044
 San Diego,California,United States,West,92037
-Pasadena,Texas,United States,Central,77506
 Brentwood,California,United States,West,94513
 Chapel Hill,North Carolina,United States,South,27514
 Morristown,New Jersey,United States,East,7960
 Cincinnati,Ohio,United States,East,45231
-San Francisco,California,United States,West,94110
 Inglewood,California,United States,West,90301
 Tamarac,Florida,United States,South,33319
 Colorado Springs,Colorado,United States,West,80906
@@ -104,66 +84,51 @@ Arlington,Virginia,United States,South,22204
 Arvada,Colorado,United States,West,80004
 Hackensack,New Jersey,United States,East,7601
 Saint Petersburg,Florida,United States,South,33710
-Philadelphia,Pennsylvania,United States,East,19143
 Long Beach,California,United States,West,90805
 Hesperia,California,United States,West,92345
 Murfreesboro,Tennessee,United States,South,37130
 Layton,Utah,United States,West,84041
 Austin,Texas,United States,Central,78745
 Lowell,Massachusetts,United States,East,1852
-Columbus,Georgia,United States,South,31907
 Manchester,Connecticut,United States,East,6040
 Harlingen,Texas,United States,Central,78550
 Tucson,Arizona,United States,West,85705
 Quincy,Illinois,United States,Central,62301
-Franklin,Massachusetts,United States,East,2038
 Pembroke Pines,Florida,United States,South,33024
 Des Moines,Washington,United States,West,98198
 Peoria,Illinois,United States,Central,61604
 Las Vegas,Nevada,United States,West,89115
 Warwick,Rhode Island,United States,East,2886
 Miami,Florida,United States,South,33180
-Wilmington,North Carolina,United States,South,28403
 Huntington Beach,California,United States,West,92646
 Richmond,Kentucky,United States,South,40475
 Louisville,Colorado,United States,West,80027
 Lawrence,Massachusetts,United States,East,1841
-Jackson,Mississippi,United States,South,39212
 Canton,Michigan,United States,Central,48187
 New Rochelle,New York,United States,East,10801
 Gastonia,North Carolina,United States,South,28052
 Jacksonville,Florida,United States,South,32216
-Columbus,Indiana,United States,Central,47201
 Auburn,New York,United States,East,13021
 Norman,Oklahoma,United States,Central,73071
-Concord,California,United States,West,94521
 Park Ridge,Illinois,United States,Central,60068
 Amarillo,Texas,United States,Central,79109
 Lindenhurst,New York,United States,East,11757
-Los Angeles,California,United States,West,90008
-San Diego,California,United States,West,92024
 Huntsville,Texas,United States,Central,77340
-Rochester,New York,United States,East,14609
 Fayetteville,Arkansas,United States,South,72701
 Costa Mesa,California,United States,West,92627
 Parker,Colorado,United States,West,80134
 Atlanta,Georgia,United States,South,30318
 Gladstone,Missouri,United States,Central,64118
 Great Falls,Montana,United States,West,59405
-Detroit,Michigan,United States,Central,48234
 Lakeland,Florida,United States,South,33801
 Montgomery,Alabama,United States,South,36116
 Mesa,Arizona,United States,West,85204
-Chicago,Illinois,United States,Central,60653
 Green Bay,Wisconsin,United States,Central,54302
-Springfield,Ohio,United States,East,45503
 Anaheim,California,United States,West,92804
 Marysville,Washington,United States,West,98270
 Salem,Oregon,United States,West,97301
 Laredo,Texas,United States,Central,78041
-Dallas,Texas,United States,Central,75217
 Grove City,Ohio,United States,East,43123
-New York City,New York,United States,East,10011
 Dearborn,Michigan,United States,Central,48126
 Warner Robins,Georgia,United States,South,31088
 Vallejo,California,United States,West,94591
@@ -172,10 +137,6 @@ Rochester Hills,Michigan,United States,Central,48307
 Plainfield,New Jersey,United States,East,7060
 Sierra Vista,Arizona,United States,West,85635
 Vancouver,Washington,United States,West,98661
-Aurora,Illinois,United States,Central,60505
-Arlington,Texas,United States,Central,76017
-Louisville,Kentucky,United States,South,40214
-Dallas,Texas,United States,Central,75081
 Cleveland,Ohio,United States,East,44105
 Tyler,Texas,United States,Central,75701
 Burlington,North Carolina,United States,South,27217
@@ -184,17 +145,13 @@ Chester,Pennsylvania,United States,East,19013
 Cary,North Carolina,United States,South,27511
 Palm Coast,Florida,United States,South,32137
 Mount Vernon,New York,United States,East,10550
-Detroit,Michigan,United States,Central,48205
 Hialeah,Florida,United States,South,33012
 Oceanside,New York,United States,East,11572
-San Diego,California,United States,West,92105
 Evanston,Illinois,United States,Central,60201
 Trenton,Michigan,United States,Central,48183
 Cottage Grove,Minnesota,United States,Central,55016
 Bossier City,Louisiana,United States,South,71111
-Des Moines,Iowa,United States,Central,50315
 Lancaster,California,United States,West,93534
-Richmond,Virginia,United States,South,23223
 Asheville,North Carolina,United States,South,28806
 Lake Elsinore,California,United States,West,92530
 Omaha,Nebraska,United States,Central,68104
@@ -206,9 +163,6 @@ Lorain,Ohio,United States,East,44052
 Linden,New Jersey,United States,East,7036
 Salinas,California,United States,West,93905
 New Brunswick,New Jersey,United States,East,8901
-Lancaster,Pennsylvania,United States,East,17602
-Concord,New Hampshire,United States,East,3301
-Columbia,Maryland,United States,East,21044
 Garland,Texas,United States,Central,75043
 Norwich,Connecticut,United States,East,6360
 Alexandria,Virginia,United States,South,22304
@@ -217,27 +171,21 @@ Farmington,New Mexico,United States,West,87401
 Riverside,California,United States,West,92503
 Torrance,California,United States,West,90503
 Round Rock,Texas,United States,Central,78664
-Oceanside,California,United States,West,92054
 Boca Raton,Florida,United States,South,33433
 Virginia Beach,Virginia,United States,South,23464
 Murrieta,California,United States,West,92563
-Jacksonville,North Carolina,United States,South,28540
-Burlington,Iowa,United States,Central,52601
 Olympia,Washington,United States,West,98502
 Washington,District of Columbia,United States,East,20016
 Jefferson City,Missouri,United States,Central,65109
 Saint Peters,Missouri,United States,Central,63376
 Rockford,Illinois,United States,Central,61107
-Miami,Florida,United States,South,33142
 Brownsville,Texas,United States,Central,78521
 Yonkers,New York,United States,East,10701
 Oakland,California,United States,West,94601
-Monroe,North Carolina,United States,South,28110
 Clinton,Maryland,United States,East,20735
 Encinitas,California,United States,West,92024
 Roswell,Georgia,United States,South,30076
 Jonesboro,Arkansas,United States,South,72401
-Richmond,Indiana,United States,Central,47374
 Antioch,California,United States,West,94509
 Homestead,Florida,United States,South,33030
 La Porte,Indiana,United States,Central,46350
@@ -254,13 +202,10 @@ Boynton Beach,Florida,United States,South,33437
 Gulfport,Mississippi,United States,South,39503
 Fresno,California,United States,West,93727
 Greenville,North Carolina,United States,South,27834
-Long Beach,New York,United States,East,11561
-Florence,Alabama,United States,South,35630
 Macon,Georgia,United States,South,31204
 Cedar Rapids,Iowa,United States,Central,52402
 Providence,Rhode Island,United States,East,2908
 Pueblo,Colorado,United States,West,81001
-Fairfield,California,United States,West,94533
 Deltona,Florida,United States,South,32725
 Murray,Kentucky,United States,South,42071
 Middletown,Connecticut,United States,East,6457
@@ -269,7 +214,6 @@ Pico Rivera,California,United States,West,90660
 Provo,Utah,United States,West,84604
 Pleasant Grove,Utah,United States,West,84062
 Smyrna,Georgia,United States,South,30080
-Salem,Virginia,United States,South,24153
 Parma,Ohio,United States,East,44134
 Mobile,Alabama,United States,South,36608
 New Bedford,Massachusetts,United States,East,2740
@@ -279,12 +223,10 @@ Glendale,Arizona,United States,West,85301
 Niagara Falls,New York,United States,East,14304
 Thomasville,North Carolina,United States,South,27360
 Westminster,California,United States,West,92683
-Jackson,Tennessee,United States,South,38301
 Coppell,Texas,United States,Central,75019
 Pomona,California,United States,West,91767
 North Las Vegas,Nevada,United States,West,89031
 Allentown,Pennsylvania,United States,East,18103
-Newark,Delaware,United States,East,19711
 Tempe,Arizona,United States,West,85281
 Laguna Niguel,California,United States,West,92677
 Bridgeton,New Jersey,United States,East,8302
@@ -296,7 +238,6 @@ Allen,Texas,United States,Central,75002
 El Paso,Texas,United States,Central,79907
 Grapevine,Texas,United States,Central,76051
 Carrollton,Texas,United States,Central,75007
-Smyrna,Tennessee,United States,South,37167
 Kent,Washington,United States,West,98031
 Lafayette,Louisiana,United States,South,70506
 Tigard,Oregon,United States,West,97224
@@ -305,12 +246,10 @@ Plano,Texas,United States,Central,75023
 Suffolk,Virginia,United States,South,23434
 Indianapolis,Indiana,United States,Central,46203
 Bayonne,New Jersey,United States,East,7002
-Fayetteville,North Carolina,United States,South,28314
 Greensboro,North Carolina,United States,South,27405
 Baltimore,Maryland,United States,East,21215
 Kenosha,Wisconsin,United States,Central,53142
 Olathe,Kansas,United States,Central,66062
-Auburn,Washington,United States,West,98002
 Tulsa,Oklahoma,United States,Central,74133
 Redmond,Oregon,United States,West,97756
 Raleigh,North Carolina,United States,South,27604
@@ -318,34 +257,23 @@ Muskogee,Oklahoma,United States,Central,74403
 Meriden,Connecticut,United States,East,6450
 Bowling Green,Kentucky,United States,South,42104
 South Bend,Indiana,United States,Central,46614
-Bristol,Connecticut,United States,East,6010
-Henderson,Nevada,United States,West,89015
 Spokane,Washington,United States,West,99207
 Keller,Texas,United States,Central,76248
-Fairfield,Ohio,United States,East,45014
 Port Orange,Florida,United States,South,32127
 Medford,Oregon,United States,West,97504
 Charlottesville,Virginia,United States,South,22901
 Missoula,Montana,United States,West,59801
-Miami,Florida,United States,South,33178
-Florence,South Carolina,United States,South,29501
-Springfield,Oregon,United States,West,97477
 Apopka,Florida,United States,South,32712
 Reading,Pennsylvania,United States,East,19601
 Broomfield,Colorado,United States,West,80020
-Springfield,Missouri,United States,Central,65807
 Paterson,New Jersey,United States,East,7501
 Oklahoma City,Oklahoma,United States,Central,73120
 Chesapeake,Virginia,United States,South,23320
 Lubbock,Texas,United States,Central,79424
-Columbia,Missouri,United States,Central,65203
 Johnson City,Tennessee,United States,South,37604
-Auburn,Alabama,United States,South,36830
 San Bernardino,California,United States,West,92404
 Leominster,Massachusetts,United States,East,1453
 Bozeman,Montana,United States,West,59715
-Peoria,Arizona,United States,West,85345
-Lakewood,Ohio,United States,East,44107
 Perth Amboy,New Jersey,United States,East,8861
 Ontario,California,United States,West,91761
 Rancho Cucamonga,California,United States,West,91730
@@ -354,29 +282,23 @@ Mesquite,Texas,United States,Central,75150
 Stockton,California,United States,West,95207
 Ormond Beach,Florida,United States,South,32174
 Sunnyvale,California,United States,West,94086
-Dover,New Hampshire,United States,East,3820
 York,Pennsylvania,United States,East,17403
 College Station,Texas,United States,Central,77840
 Saint Louis,Missouri,United States,Central,63116
-Quincy,Massachusetts,United States,East,2169
 Manteca,California,United States,West,95336
-Kent,Ohio,United States,East,44240
 San Angelo,Texas,United States,Central,76903
 Salt Lake City,Utah,United States,West,84106
-Huntsville,Alabama,United States,South,35810
 Knoxville,Tennessee,United States,South,37918
 Little Rock,Arkansas,United States,South,72209
 Lincoln Park,Michigan,United States,Central,48146
 Marion,Ohio,United States,East,43302
 Littleton,Colorado,United States,West,80122
-Burlington,Vermont,United States,East,5408
 Bangor,Maine,United States,East,4401
 Southaven,Mississippi,United States,South,38671
 New Castle,Indiana,United States,Central,47362
 Midland,Michigan,United States,Central,48640
 Sioux Falls,South Dakota,United States,Central,57103
 Fort Collins,Colorado,United States,West,80525
-Lafayette,Indiana,United States,Central,47905
 Clarksville,Tennessee,United States,South,37042
 Sacramento,California,United States,West,95823
 Thousand Oaks,California,United States,West,91360
@@ -391,7 +313,6 @@ North Charleston,South Carolina,United States,South,29406
 Newport News,Virginia,United States,South,23602
 Jamestown,New York,United States,East,14701
 Mishawaka,Indiana,United States,Central,46544
-Bowling Green,Ohio,United States,East,43402
 La Quinta,California,United States,West,92253
 Tallahassee,Florida,United States,South,32303
 Nashville,Tennessee,United States,South,37211
@@ -402,16 +323,13 @@ Wheeling,Illinois,United States,Central,60090
 Summerville,South Carolina,United States,South,29483
 Hot Springs,Arkansas,United States,South,71901
 Englewood,Colorado,United States,West,80112
-Lancaster,Ohio,United States,East,43130
 Las Cruces,New Mexico,United States,West,88001
 Hoover,Alabama,United States,South,35244
 Frisco,Texas,United States,Central,75034
 Vacaville,California,United States,West,95687
-Murray,Utah,United States,West,84107
 Waukesha,Wisconsin,United States,Central,53186
 Bakersfield,California,United States,West,93309
 Pompano Beach,Florida,United States,South,33068
-Troy,Ohio,United States,East,45373
 Corpus Christi,Texas,United States,Central,78415
 Redondo Beach,California,United States,West,90278
 Orlando,Florida,United States,South,32839
@@ -429,7 +347,6 @@ Billings,Montana,United States,West,59102
 Gresham,Oregon,United States,West,97030
 Chattanooga,Tennessee,United States,South,37421
 Meridian,Idaho,United States,West,83642
-Apple Valley,California,United States,West,92307
 Bolingbrook,Illinois,United States,Central,60440
 Maple Grove,Minnesota,United States,Central,55369
 Woodland,California,United States,West,95695
@@ -451,7 +368,6 @@ Hickory,North Carolina,United States,South,28601
 Carol Stream,Illinois,United States,Central,60188
 Saint Cloud,Minnesota,United States,Central,56301
 North Miami,Florida,United States,South,33161
-Lawrence,Indiana,United States,Central,46226
 Plantation,Florida,United States,South,33317
 Port Saint Lucie,Florida,United States,South,34952
 Rock Hill,South Carolina,United States,South,29730
@@ -462,12 +378,10 @@ Manhattan,Kansas,United States,Central,66502
 Altoona,Pennsylvania,United States,East,16602
 Thornton,Colorado,United States,West,80229
 Champaign,Illinois,United States,Central,61821
-Bloomington,Indiana,United States,Central,47401
 Texarkana,Arkansas,United States,South,71854
 Edinburg,Texas,United States,Central,78539
 Baytown,Texas,United States,Central,77520
 Greenwood,Indiana,United States,Central,46142
-Lakewood,California,United States,West,90712
 Woonsocket,Rhode Island,United States,East,2895
 Superior,Wisconsin,United States,Central,54880
 Bedford,Texas,United States,Central,76021
@@ -481,11 +395,9 @@ Mcallen,Texas,United States,Central,78501
 Iowa City,Iowa,United States,Central,52240
 Boise,Idaho,United States,West,83704
 Cranston,Rhode Island,United States,East,2920
-Freeport,Illinois,United States,Central,61032
 Port Arthur,Texas,United States,Central,77642
 Citrus Heights,California,United States,West,95610
 The Colony,Texas,United States,Central,75056
-Redmond,Washington,United States,West,98052
 Daytona Beach,Florida,United States,South,32114
 Bullhead City,Arizona,United States,West,86442
 Portage,Indiana,United States,Central,46368
@@ -502,12 +414,9 @@ La Crosse,Wisconsin,United States,Central,54601
 Lewiston,Idaho,United States,West,83501
 Hattiesburg,Mississippi,United States,South,39401
 Danville,California,United States,West,94526
-Mount Pleasant,Michigan,United States,Central,48858
 Logan,Utah,United States,West,84321
 Waterbury,Connecticut,United States,East,6708
 Athens,Georgia,United States,South,30605
-Lewiston,Maine,United States,East,4240
-Danville,Illinois,United States,Central,61832
 Avondale,Arizona,United States,West,85323
 Marietta,Georgia,United States,South,30062
 Yuma,Arizona,United States,West,85364
@@ -526,13 +435,10 @@ Chandler,Arizona,United States,West,85224
 Helena,Montana,United States,West,59601
 Kirkwood,Missouri,United States,Central,63122
 Waco,Texas,United States,Central,76706
-Roseville,Michigan,United States,Central,48066
 Frankfort,Illinois,United States,Central,60423
 Bethlehem,Pennsylvania,United States,East,18018
-Roseville,Minnesota,United States,Central,55113
 Grand Island,Nebraska,United States,Central,68801
 Woodbury,Minnesota,United States,Central,55125
-Oak Park,Michigan,United States,Central,48237
 Rogers,Arkansas,United States,South,72756
 Clovis,New Mexico,United States,West,88101
 Jupiter,Florida,United States,South,33458
@@ -577,7 +483,6 @@ Texas City,Texas,United States,Central,77590
 Wilson,North Carolina,United States,South,27893
 Rio Rancho,New Mexico,United States,West,87124
 Goldsboro,North Carolina,United States,South,27534
-Everett,Washington,United States,West,98208
 Montebello,California,United States,West,90640
 El Cajon,California,United States,West,92020
 Beaumont,Texas,United States,Central,77705
@@ -585,7 +490,6 @@ West Palm Beach,Florida,United States,South,33407
 Abilene,Texas,United States,Central,79605
 Normal,Illinois,United States,Central,61761
 Saint Charles,Missouri,United States,Central,63301
-Saint Charles,Illinois,United States,Central,60174
 Camarillo,California,United States,West,93010
 Hillsboro,Oregon,United States,West,97123
 Burbank,California,United States,West,91505
@@ -594,7 +498,6 @@ Garden City,Kansas,United States,Central,67846
 Atlantic City,New Jersey,United States,East,8401
 Longmont,Colorado,United States,West,80501
 Davis,California,United States,West,95616
-Wheeling,West Virginia,United States,East,26003
 Morgan Hill,California,United States,West,95037
 Clifton,New Jersey,United States,East,7011
 Sheboygan,Wisconsin,United States,Central,53081
@@ -604,7 +507,6 @@ Andover,Massachusetts,United States,East,1810
 Kissimmee,Florida,United States,South,34741
 Shelton,Connecticut,United States,East,6484
 Danbury,Connecticut,United States,East,6810
-Marion,Iowa,United States,Central,52302
 Sanford,Florida,United States,South,32771
 San Marcos,Texas,United States,Central,78666
 Greeley,Colorado,United States,West,80634
@@ -624,10 +526,7 @@ Arlington Heights,Illinois,United States,Central,60004
 Oswego,Illinois,United States,Central,60543
 Coon Rapids,Minnesota,United States,Central,55433
 San Clemente,California,United States,West,92672
-Dublin,California,United States,West,94568
 San Luis Obispo,California,United States,West,93405
 Springdale,Arkansas,United States,South,72762
 Lodi,California,United States,West,95240
-La Porte,Texas,United States,Central,77571
 Mason,Ohio,United States,East,45040
-Woodstock,Georgia,United States,South,30188

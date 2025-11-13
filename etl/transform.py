@@ -1,5 +1,6 @@
 import pandas as pd
 from extract import extract
+from dw.conection import get_engine
 import os
 
 df = extract()
@@ -14,12 +15,12 @@ def base_dir(file_name):
 def save_data(df, output_file_name, index=False):
     pathComplete = base_dir(output_file_name)
     df.to_csv(pathComplete, index=index)
-    print("Archivo guardado")
+    print("Archivo guardado!")
 
 
 
 def Dim_Customer(df):
-        customers = df[['Customer_ID','Customer_Name','Segment']].drop_duplicates()
+        customers = df[['Customer_Code','Customer_Name','Segment']].drop_duplicates(subset=['Customer_Code'],keep='first')
         save_data(
             df=customers,
             output_file_name='Dim_Customer.csv'
@@ -36,7 +37,7 @@ def Dim_Products(df):
 
 
 def Dim_Geography (df):
-    geography = df[['City','State','Country','Region','Postal_Code']].drop_duplicates()
+    geography = df[['City','State','Country','Region','Postal_Code']].drop_duplicates(subset=['City'],keep='first')
     save_data(
         df=geography,
         output_file_name='Dim_Geography.csv'
@@ -57,7 +58,30 @@ def Dim_SubCategory(df):
     )
 
 def Fact_Sales(df):
-    pass
+    engine = get_engine()
+    #traer ids de las dimensiones
+    idcustomer = pd.read_sql('SELECT Customer_ID,Customer_Code FROM Dim_Customer',engine)
+    idproduct = pd.read_sql('SELECT Product_ID,Product_Code FROM Dim_Products', engine)
+    idgeography = pd.read_sql('SELECT Geography_ID,City FROM Dim_Geography', engine)
+    idcategory = pd.read_sql('SELECT Category_ID,Category FROM Dim_Category', engine)
+    idsubcategory = pd.read_sql('SELECT SubCategory_ID,Sub_Category FROM Dim_SubCategory', engine)
+
+    df = df.merge(idcustomer, on='Customer_Code', how='left')
+    df = df.merge(idproduct, on='Product_Code', how='left')
+    df = df.merge(idgeography, on='City', how='left')
+    df = df.merge(idcategory, on='Category', how='left')
+    df = df.merge(idsubcategory, on='Sub_Category', how='left')
+    
+    sales = df[[
+        'Order_ID','Order_Date','Ship_Date','Ship_Mode','Customer_ID',
+        'Product_ID','Category_ID','SubCategory_ID','Geography_ID','Sales','Quantity','Discount','Profit']]
+    
+    save_data(
+        df=sales,
+        output_file_name='Fact_Sales.csv'
+    )
+
+
 
 def main():
     try:
@@ -70,7 +94,6 @@ def main():
         Fact_Sales(df)
     except Exception as ex:
         print(f'Ocurrio un problema en {ex}')
-        
-        
-if __name__ == "__main__":
-    main()  
+
+
+

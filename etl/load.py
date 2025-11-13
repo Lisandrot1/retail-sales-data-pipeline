@@ -11,7 +11,7 @@ def Save_Dw():
     data_path = os.path.join(base_dir, "..", "data", "tables")
     
     for file_name in os.listdir(data_path):    
-        if file_name.endswith(".csv"):
+        if file_name.endswith(".csv") and not file_name.startswith("Fact"):
             rename_file = file_name.replace(".csv","")
             file_path = os.path.join(data_path, file_name)
             print(file_path)
@@ -21,7 +21,3 @@ def Save_Dw():
             
             df.to_sql(rename_file, engine, if_exists="append", index=False)
             print("Ejecucion correcta")
-            
-            
-if __name__ == "__main__":
-    Save_Dw()
