@@ -21,4 +21,3 @@ def Save_Dw():
             
             df.to_sql(rename_file, engine, if_exists="append", index=False)
             print("Ejecucion correcta")
-            print("Ejecucion correcta")
