@@ -10,7 +10,7 @@ if __name__ == "__main__":
         
         extract()
         main()
-        #Save_Dw()
+        Save_Dw()
         
         print("Pipeline Terminado Correctamente!!!")
     except Exception as ex:

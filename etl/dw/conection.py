@@ -16,10 +16,8 @@ def get_engine():
 
     try:
         engine = create_engine(connection_url)
-        print("✅ Conexión exitosa con SQLAlchemy")
+        print("Conexión exitosa con SQLAlchemy")
         return engine
     except Exception as ex:
         print(f"❌ Error al conectar: {ex}")
 
-
-get_engine()
