@@ -91,7 +91,6 @@ def main():
         Dim_Geography(df)
         Dim_Category(df)
         Dim_SubCategory(df)
-        #Fact_Sales(df)
     except Exception as ex:
         print(f'Ocurrio un problema en {ex}')
 
