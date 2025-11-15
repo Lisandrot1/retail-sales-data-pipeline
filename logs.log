@@ -1,0 +1,10 @@
+2025-11-14 18:23:14,221 - INFO - __main__ - Iniciando Pipeline
+2025-11-14 18:23:14,278 - INFO - __main__ - Extraccion Terminada
+2025-11-14 18:23:14,362 - INFO - __main__ - Transformacion Terminada
+2025-11-14 18:23:15,623 - INFO - __main__ - Insercion Terminada
+2025-11-14 18:23:15,623 - INFO - __main__ - Pipeline Terminado Correctamente!!!
+2025-11-14 22:16:56,722 - INFO - __main__ - Iniciando Pipeline
+2025-11-14 22:16:56,805 - INFO - __main__ - Extraccion Terminada
+2025-11-14 22:16:56,921 - INFO - __main__ - Transformacion Terminada
+2025-11-14 22:17:00,104 - INFO - __main__ - Insercion Terminada
+2025-11-14 22:17:00,104 - INFO - __main__ - Pipeline Terminado Correctamente!!!

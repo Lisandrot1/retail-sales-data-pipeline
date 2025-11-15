@@ -1,6 +1,7 @@
 from sqlalchemy import create_engine
 from dotenv import dotenv_values
 
+
 def get_engine():
     config = dotenv_values('.env')
     SERVER = config.get('DB_HOST')

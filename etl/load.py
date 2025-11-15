@@ -16,7 +16,6 @@ def truncate_table(engine):
                 try:
                     rename_file = file_name.replace(".csv","")
                     conn.execute(text(f"TRUNCATE TABLE {rename_file};"))
-                    print(f"tabla truncada {rename_file}")
                 except Exception as ex:
                     print(f'Error Truncado: {ex}')
 
@@ -37,14 +36,12 @@ def Save_Dw():
                 
                 df = pd.read_csv(file_path)
                 df.to_sql(rename_file, engine, if_exists="append", index=False)
-                print(f"Insercion Correcta! {rename_file}")
             except Exception as ex:
                 print(f'Error en Insercion: {ex}')
 
     try:
         df = extract()
         Fact_Sales(df)
-        print('Generado Correctamente Fact_Sales')
     except Exception as ex:
         print(f'Problema en fact_load {ex}')
     
@@ -58,6 +55,5 @@ def Save_Dw():
                 
                 df = pd.read_csv(file_path)                
                 df.to_sql(rename_file, engine, if_exists="append", index=False)
-                print("Ejecucion correcta")
     except Exception as ex:
         print(f'Problema en fact_load {ex}')
